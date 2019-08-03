@@ -1,0 +1,31 @@
+{
+  "name": "heroku-synpics",
+  "version": "1.0.0",
+  "description": "t",
+  "main": "index.js",
+  "dependencies": {
+    "ascii-art": "^1.5.1",
+    "discord.js": "^11.5.1",
+    "fs": "^0.0.1-security",
+    "random-puppy": "^1.1.0",
+    "snekfetch": "^4.0.4",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test1345"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SynCode05/synpics.git"
+  },
+  "keywords": [
+    "h"
+  ],
+  "author": "h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SynCode05/synpics/issues"
+  },
+  "homepage": "https://github.com/SynCode05/synpics#readme"
+}
