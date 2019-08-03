@@ -2,7 +2,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
-const token = require("./token.json");
 const fs = require("fs");
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
