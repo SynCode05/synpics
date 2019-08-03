@@ -3,13 +3,13 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
 const fs = require("fs");
+const token = 
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
 bot.afk = new Map();
 const superagent = require('superagent');
 const errors = require("./utils/errors.js");
 let purple = config.purple;
-var guildConf = require('./guildConf.json');
 let prefix = config.prefix
 
 
