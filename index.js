@@ -160,4 +160,4 @@ if (message.content.startsWith(prefix + "shutdown")) {
 });
 
 //Login
-bot.login(token.token);
+bot.login(process.env.token);
