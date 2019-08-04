@@ -6,15 +6,21 @@ const prefix = config.prefix;
 module.exports.run = async (bot, message, args) => {
 
     if (message.content.startsWith( `${prefix}help`)) {
+    let bicon = message.author.displayAvatarURL;
+    let user = message.author.username
     let embed = new Discord.RichEmbed()
     .setColor("#ffffff")
     .setDescription("Here are the help command for SynPics")
-    .setTitle("Help!")
-    .addField(`Ascii`, `Usage: ${prefix}ascii <text>`)
-    .addField(`Dog`, `Usage: ${prefix}dog`)
-    .addField(`Cat`, `Usage: ${prefix}cat`)
-    .addField(`Meme`, `Usage: ${prefix}meme`)
+    .setTitle("H E L P")
+    .addBlankField()
+    .addField(`Ascii`, `Usage: ${prefix}ascii <text>`, true)
+    .addField(`Dog`, `Usage: ${prefix}dog`, true)
+    .addField(`Cat`, `Usage: ${prefix}cat`, true)
+    .addField(`Meme`, `Usage: ${prefix}meme`, true)
+    .setThumbnail(bicon)
+    .setFooter(`Requested by ${user}`, bicon)
     .setTimestamp();
+
 
 
     message.channel.send(embed);
